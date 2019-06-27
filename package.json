@@ -1,6 +1,6 @@
 {
   "name": "@bizon/advertising-sdk",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "SDK for Amazon Advertising API",
   "scripts": {
     "test": "TZ=UTC jest"
