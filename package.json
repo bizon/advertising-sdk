@@ -1,0 +1,60 @@
+{
+  "name": "@bizon/advertising-sdk",
+  "version": "1.0.0",
+  "description": "SDK for Amazon Advertising API",
+  "scripts": {
+    "test": "TZ=UTC jest"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/**/*.js"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": "https://github.com/bizon/advertising-sdk",
+  "author": "Bertrand Marron <bertrand.marron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^9.6.0"
+  },
+  "devDependencies": {
+    "codecov": "^3.5.0",
+    "jest": "^24.8.0",
+    "jest-junit": "^6.4.0",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2,
+    "overrides": [
+      {
+        "files": "__tests__/**/*.js",
+        "envs": [
+          "jest"
+        ]
+      }
+    ]
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "jest-junit",
+        {
+          "output": "reports/tests/junit.xml"
+        }
+      ]
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "lib/**/*.js",
+      "index.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ]
+  }
+}
