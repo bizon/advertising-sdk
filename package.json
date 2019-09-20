@@ -20,7 +20,7 @@
     "got": "^9.6.0"
   },
   "devDependencies": {
-    "codecov": "^3.5.0",
+    "codecov": "^3.6.0",
     "jest": "^24.9.0",
     "jest-junit": "^7.0.0",
     "xo": "^0.24.0"
