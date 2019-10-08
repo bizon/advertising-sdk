@@ -22,10 +22,10 @@
     "got": "10.0.0-alpha.2.2"
   },
   "devDependencies": {
-    "codecov": "^3.5.0",
+    "codecov": "^3.6.1",
     "jest": "^24.9.0",
-    "jest-junit": "^7.0.0",
-    "xo": "^0.24.0"
+    "jest-junit": "^8.0.0",
+    "xo": "^0.25.3"
   },
   "xo": {
     "semicolon": false,
@@ -48,7 +48,7 @@
       [
         "jest-junit",
         {
-          "output": "reports/tests/junit.xml"
+          "outputDirectory": "reports/tests"
         }
       ]
     ],
