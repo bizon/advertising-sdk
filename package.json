@@ -17,7 +17,9 @@
   "author": "Bertrand Marron <bertrand.marron@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "got": "^9.6.0"
+    "date-fns": "^2.4.1",
+    "debug": "^4.1.1",
+    "got": "10.0.0-alpha.2.2"
   },
   "devDependencies": {
     "codecov": "^3.5.0",
@@ -28,6 +30,9 @@
   "xo": {
     "semicolon": false,
     "space": 2,
+    "rules": {
+      "camelcase": "warn"
+    },
     "overrides": [
       {
         "files": "__tests__/**/*.js",
