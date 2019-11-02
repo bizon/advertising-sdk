@@ -880,7 +880,7 @@ cacheable-lookup@^0.2.1:
   dependencies:
     keyv "^3.1.0"
 
-cacheable-request@^6.0.0, cacheable-request@^6.1.0:
+cacheable-request@^6.0.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-6.1.0.tgz#20ffb8bd162ba4be11e9567d823db651052ca912"
   integrity sha512-Oj3cAGPCqOZX7Rz64Uny2GYAZNliQSqfbePrgAQ1wKAihYmCUnraBtJtKcGR4xz7wF+LoJC+ssFZvv5BgF9Igg==
@@ -892,6 +892,19 @@ cacheable-request@^6.0.0, cacheable-request@^6.1.0:
     lowercase-keys "^2.0.0"
     normalize-url "^4.1.0"
     responselike "^1.0.2"
+
+cacheable-request@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-7.0.0.tgz#12421aa084e943ec81eac8c93e56af90c624788a"
+  integrity sha512-UVG4gMn3WjnAeFBBx7RFoprgOANIAkMwN5Dta6ONmfSwrCxfm0Ip7g0mIBxIRJZX9aDsoID0Ry3dU5Pr0csKKA==
+  dependencies:
+    clone-response "^1.0.2"
+    get-stream "^5.1.0"
+    http-cache-semantics "^4.0.0"
+    keyv "^3.0.0"
+    lowercase-keys "^2.0.0"
+    normalize-url "^4.1.0"
+    responselike "^2.0.0"
 
 call-me-maybe@^1.0.1:
   version "1.0.1"
@@ -1234,10 +1247,10 @@ decompress-response@^3.3.0:
   dependencies:
     mimic-response "^1.0.0"
 
-decompress-response@^4.2.0:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/decompress-response/-/decompress-response-4.2.1.tgz#414023cc7a302da25ce2ec82d0d5238ccafd8986"
-  integrity sha512-jOSne2qbyE+/r8G1VU+G/82LBs2Fs4LAsTiLSHOCOMZQl2OKZ6i8i4IyHemTe+/yIXOtTcRQMzPcgyhoFlqPkw==
+decompress-response@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/decompress-response/-/decompress-response-5.0.0.tgz#7849396e80e3d1eba8cb2f75ef4930f76461cb0f"
+  integrity sha512-TLZWWybuxWgoW7Lykv+gq9xvzOsUjQ9tF09Tj6NSTYGMTCHNXzrPnD6Hi+TgZq19PyTAGH4Ll/NIM/eTGglnMw==
   dependencies:
     mimic-response "^2.0.0"
 
@@ -2163,24 +2176,24 @@ globby@^9.0.0:
     pify "^4.0.1"
     slash "^2.0.0"
 
-got@10.0.0-alpha.2.2:
-  version "10.0.0-alpha.2.2"
-  resolved "https://registry.yarnpkg.com/got/-/got-10.0.0-alpha.2.2.tgz#3e08ff79a9e714d8888137934a68e751c6adecc4"
-  integrity sha512-bJOQhLecSylUML9cRHHdVe7WqksurvX1srN/KGk/L9xBxwwwLVRLQXFUF49P9uhkUT4NQdvxSLBecIF+ehhWNg==
+got@10.0.0-alpha.3.2:
+  version "10.0.0-alpha.3.2"
+  resolved "https://registry.yarnpkg.com/got/-/got-10.0.0-alpha.3.2.tgz#4099e4a68ecdb1c44fec9116018ff3dab118e86b"
+  integrity sha512-8CpcAt6uomONUxQCXysMfFgZg5LIWmwK3d2PF8RZ4nGtwNjA1VjG4T9JGTzPTKVgavLolpztXOrgs366/z519w==
   dependencies:
     "@sindresorhus/is" "^1.0.0"
     "@szmarczak/http-timer" "^2.0.0"
     "@types/cacheable-request" "^6.0.1"
     "@types/tough-cookie" "^2.3.5"
     cacheable-lookup "^0.2.1"
-    cacheable-request "^6.1.0"
-    decompress-response "^4.2.0"
+    cacheable-request "^7.0.0"
+    decompress-response "^5.0.0"
     duplexer3 "^0.1.4"
     get-stream "^5.0.0"
     lowercase-keys "^2.0.0"
     mimic-response "^2.0.0"
     p-cancelable "^2.0.0"
-    responselike "^1.0.2"
+    responselike "^2.0.0"
     to-readable-stream "^2.0.0"
     type-fest "^0.8.0"
 
@@ -4626,6 +4639,13 @@ responselike@^1.0.2:
   integrity sha1-kYcg7ztjHFZCvgaPFa3lpG9Loec=
   dependencies:
     lowercase-keys "^1.0.0"
+
+responselike@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/responselike/-/responselike-2.0.0.tgz#26391bcc3174f750f9a79eacc40a12a5c42d7723"
+  integrity sha512-xH48u3FTB9VsZw7R+vvgaKeLKzT6jOogbQhEe/jewwnZgzPcnyWui2Av6JpoYZF/91uueC+lqhWqeURw5/qhCw==
+  dependencies:
+    lowercase-keys "^2.0.0"
 
 restore-cursor@^2.0.0:
   version "2.0.0"
