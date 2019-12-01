@@ -458,11 +458,6 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
 
-"@types/tough-cookie@^2.3.5":
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-2.3.5.tgz#9da44ed75571999b65c37b60c9b2b88db54c585d"
-  integrity sha512-SCcK7mvGi3+ZNz833RRjFIxrn4gI1PPR3NtuIS+6vMkvmsGjosqTJwRt5bAEFLRz+wtJMWv8+uOnZf2hi2QXTg==
-
 "@types/yargs-parser@*":
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-13.0.0.tgz#453743c5bbf9f1bed61d959baab5b06be029b2d0"
@@ -2181,15 +2176,14 @@ globby@^9.0.0:
     pify "^4.0.1"
     slash "^2.0.0"
 
-got@10.0.0-beta.1:
-  version "10.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/got/-/got-10.0.0-beta.1.tgz#a52e450d4b990d5ada13abb9205d6b327529f6a3"
-  integrity sha512-eZtkHTdzU4JUbj0UNTJfoNNn64+utYvjg+K8qd1rqiApskBiobbwX1nJ29jD7fobOe5KyR+9gBZCT1ExHXF8Eg==
+got@10.0.0-beta.3:
+  version "10.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/got/-/got-10.0.0-beta.3.tgz#f86a2b9c0a5bddd340c1dcc19cb831b819465cf8"
+  integrity sha512-lq3TNHuat96CkPtz2DLH8rMFpS48nYHTgh+pqwqMcc+eN4XK0Qmuilr5I5bQqunkrISFondnOgPI7uPrK6yD7g==
   dependencies:
     "@sindresorhus/is" "^1.0.0"
     "@szmarczak/http-timer" "^3.1.0"
     "@types/cacheable-request" "^6.0.1"
-    "@types/tough-cookie" "^2.3.5"
     cacheable-lookup "^0.2.1"
     cacheable-request "^7.0.0"
     decompress-response "^5.0.0"
