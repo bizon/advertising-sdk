@@ -17,7 +17,7 @@
   "author": "Bertrand Marron <bertrand.marron@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "date-fns": "^2.11.0",
+    "date-fns": "^2.13.0",
     "debug": "^4.1.1",
     "got": "10.2.1"
   },
