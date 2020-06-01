@@ -19,7 +19,7 @@
   "dependencies": {
     "date-fns": "^2.11.0",
     "debug": "^4.1.1",
-    "got": "10.2.1"
+    "got": "11.2.0"
   },
   "devDependencies": {
     "codecov": "^3.7.0",
